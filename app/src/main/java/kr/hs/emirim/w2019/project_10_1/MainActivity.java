@@ -29,8 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.radio_second:
                     intent = new Intent(getApplicationContext(), SecondActivity.class);
                     break;
-
-                case R.id.btn_third_close:
+                case R.id.radio_third:
                     intent = new Intent(getApplicationContext(), ThirdActivity.class);
                     break;
             }
